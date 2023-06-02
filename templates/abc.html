@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="D:\UB CSE\CSE 535 - Info Retrieval\ChatBot - Lemon Drops\static\style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css.css')}}" /> -->
+    <!-- <link type='text/css' rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body style="background-image: url(img.jpg;); background-attachment: fixed;">
+<div style="margin-top:190px; margin-left: 1290px; width: 110px;background-color:black; color: whitesmoke; border-radius: 10px;">
+    <input type="checkbox" ><strong>Politics</strong><br><br>
+    <input type="checkbox"><strong>Environment</strong><br><br>
+    <input type="checkbox"><strong>Education</strong><br><br>
+    <input type="checkbox"><strong>Healthcare</strong><br><br>
+    <input type="checkbox"><strong>Technology</strong><br><br>
+</div>
+    <div class="row container1" style="margin: 190px 190px 190px 190px ;border-radius: 100px 100px 100px 100px; margin-top: -250px">
+
+        <div class="col-md-10 mr-auto ml-auto">
+    <h1 style="color:black; background-color: #8CA1A5; border-radius:100px 100px 100px 100px;">Lemon Bot</h1>
+    <form>
+        <div id="chatbox">
+            <div class="col-md-8 ml-auto mr-auto">
+                <p class="botText"><span>Hi! I'm Your bot.</span></p>
+            </div>
+        </div>
+        <div id="userInput" class="row" >
+            <div class="col-md-10">
+                <span>
+                    <input id="text" type="text" name="msg" placeholder="Message"  style="border:solid 1px green;height: 40px; width: 230px; line-height: 20px;vertical-align: middle;border-radius: 10px;">
+                    <button type="submit" class="btn-warning" id="send" style="border: solid 1px; height: 45px; width:50px;line-height: 22px;vertical-align: middle;border-radius: 10px;">Send</button>
+                </span>
+            </div>
+<!--           <div class="col-md-10 input-group">
+                <input type="text" class="form-control" placeholder="Message">
+                <input id="text" type="text" name="msg" placeholder="Message" class="form-control">
+
+                <span class="input-group-btn" style="width:0;">
+                    <button class="btn btn-default btn-warning" id="send" type="submit">Send</button>
+                </span>
+            </div> -->
+        </div>
+    </form>
+</div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            var rawText = $("#text").val();
+            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+            $("#text").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById("userInput").scrollIntoView({
+                block: "start",
+                behavior: "smooth",
+            });
+            $.ajax({
+                data: {
+                    msg: rawText,
+                },
+                type: "POST",
+                url: "/get",
+            }).done(function(data) {
+                var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+                $("#chatbox").append($.parseHTML(botHtml));
+                document.getElementById("userInput").scrollIntoView({
+                    block: "start",
+                    behavior: "smooth",
+                });
+            });
+            event.preventDefault();
+        });
+    });
+</script>
+</body>
+</html>

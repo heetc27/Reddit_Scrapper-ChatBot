@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style1.css')}}/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body style="background-image: url('templates/img.jpg');; background-attachment: fixed;">
+<div style="margin-top:190px; margin-left: 1290px; width: 110px;background-color:black; color: whitesmoke; border-radius: 10px;">
+    <input type="checkbox" ><strong>Politics</strong><br><br>
+    <input type="checkbox"><strong>Environment</strong><br><br>
+    <input type="checkbox"><strong>Education</strong><br><br>
+    <input type="checkbox"><strong>Healthcare</strong><br><br>
+    <input type="checkbox"><strong>Technology</strong><br><br>
+</div>
+    <div class="row wrapper" style="margin: 190px 190px 190px 190px ;border-radius: 100px 100px 100px 100px; margin-top: -250px">
+        <div class="col-md-10 right left">
+    <h1 style="color:black; background-color: #ff0101; border-radius:100px 100px 100px 100px;">LemonDrops Bot</h1>
+    <form>
+        <div id="chatbox">
+            <div class="col-md-8 left right"><p class="bot-msg"><span>Hi, I'm Lemon bot!</span></p>
+            </div>
+        </div>
+        <div id="userInput" class="row">
+            <div class="col-md-10">
+                <span>
+                    <input id="text" type="text" name="msg" placeholder="Message"  style="border:solid 1px green;height: 40px; width: 230px; line-height: 20px;vertical-align: middle;border-radius: 10px;">
+                    <button type="submit" class="btn-send" id="send" style="border: solid 1px; height: 45px; width:50px;line-height: 22px;vertical-align: middle;border-radius: 10px;">Send</button>
+                </span>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+<script>
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            var rawText = $("#text").val();
+            var userHtml = '<p class="user-msg"><span>' + rawText + "</span></p>";
+            $("#text").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById("userInput").scrollIntoView({block: "start",behavior: "smooth",});
+            $.ajax({
+                data: {
+                    msg: rawText,
+                },
+                type: "POST",
+                url: "/get",
+            }).done(function(data) {
+                var botHtml = '<p class="bot-msg"><span>' + data + "</span></p>";
+                $("#chatbox").append($.parseHTML(botHtml));
+                document.getElementById("userInput").scrollIntoView({
+                    block: "start",
+                    behavior: "smooth",
+                });
+            });
+            event.preventDefault();
+        });
+    });
+</script>
+</body>
+</html>

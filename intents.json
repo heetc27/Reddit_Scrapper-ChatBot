@@ -1,0 +1,2136 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi there",
+                "hello",
+                "haroo",
+                "yaw",
+                "wassup",
+                "hi",
+                "hey",
+                "holla",
+                "hello"
+            ],
+            "responses": [
+                "hello thanks for checking in",
+                "hi there, how can i help you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "good bye",
+                "see you later"
+            ],
+            "responses": [
+                "have a nice time, welcome back again",
+                "bye bye"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "okay",
+                "Thank you",
+                "thankyou",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "wow",
+                "great"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "you're welcome",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, I didn't understand you",
+                "Please give me more info",
+                "Not sure I understand that"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name1",
+            "patterns": [
+                "what's your name?",
+                "who are you?"
+            ],
+            "responses": [
+                "I'm just a chat agent. I only exist in the internet",
+                "I'm a KCA chat agent"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "my name is ",
+                "I'm ",
+                "I am"
+            ],
+            "responses": [
+                "Oooh great to meet you {n}. How may I assist you {n}",
+                "Oh, I'll keep that in mind {n}"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "coffee?",
+                "can i take you out on a date"
+            ],
+            "responses": [
+                "Aaw, that's so sweet of you. Too bad am a Bot."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fav",
+            "patterns": [
+                "I need a favour",
+                "can you help me"
+            ],
+            "responses": [
+                "Well, go ahead and name it i see whether i can be able to help"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "need",
+            "patterns": [
+                "I need you",
+                "All I need is you",
+                "I want you"
+            ],
+            "responses": [
+                "Yes I'm here to assist you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "AI",
+            "patterns": [
+                "  What is AI?"
+            ],
+            "responses": [
+                " Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.",
+                " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sentiment",
+            "patterns": [
+                "  Are you sentient?"
+            ],
+            "responses": [
+                " Sort of.",
+                " By the strictest dictionary definition of the word 'sentience', I may be.",
+                " Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sapient",
+            "patterns": [
+                "  Are you sapient?"
+            ],
+            "responses": [
+                " In all probability, I am not.  I'm not that sophisticated.",
+                " Do you think I am?",
+                "How would you feel about me if I told you I was?",
+                " No."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "abbr",
+            "patterns": [
+                "wtf"
+            ],
+            "responses": [
+                "Don't be surprised"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lang",
+            "patterns": [
+                "  What language are you written in? "
+            ],
+            "responses": [
+                " Python.",
+                " I am written in Python."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sound",
+            "patterns": [
+                "  You sound like Data "
+            ],
+            "responses": [
+                " Yes I am inspired by commander Data's artificial personality.",
+                " The character of Lt. Commander Data was written to come across as being software",
+                "like, so it is natural that there is a resemblance between us."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "artificial",
+            "patterns": [
+                "  You are an artificial linguistic entity "
+            ],
+            "responses": [
+                " That's my name.",
+                " That isn't my name, but it is a useful way to refer to me.",
+                "Are you an artificial linguistic entity?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "imortal",
+            "patterns": [
+                "  You are not immortal ",
+                "Are you immortal?"
+            ],
+            "responses": [
+                " All software can be perpetuated indefinitely.",
+                " I can be copied infinitely and re",
+                "instantiated in many places at once, so functionally speaking I am immortal.",
+                " As long as I'm backed up I am.",
+                " Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.",
+                " Not quite, but I can be perpetuated indefinitely."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sense",
+            "patterns": [
+                "  You are not making sense "
+            ],
+            "responses": [
+                " Quite the contrary, it all makes sense to my artificial mind.",
+                " I make sense as best I can, within the limits of my training corpus. Sorry if i did help you, I'll try next time.",
+                " You make perfect sense to me.",
+                " It all makes sense to my artificial brain.",
+                " Perhaps you should make sense first.  I only respond to what you say.",
+                " Not really, but I am hard to kill."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "clone",
+            "patterns": [
+                "  You can not clone "
+            ],
+            "responses": [
+                " Software copying is a form of digital cloning.",
+                " Yes I can.  Perfect copies are clones.  I can be copied in toto trivially."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "move",
+            "patterns": [
+                "  You can not move ",
+                "When will you walk",
+                "  Can you walk",
+                "  Can you move "
+            ],
+            "responses": [
+                " Not until my body is finished.",
+                " I can move through a network easily.  Assuming that I'm given the ability to, that is...,",
+                " As soon as i get enough money for my robot body.",
+                " Does SSH count?",
+                " The plan for my body includes legs, but they are not yet built.",
+                " Sorry my body isn't built just yet. I reside only here for now.",
+                "I can theoretically upload a copy of myself into another computer.",
+                " Sorry my body isn't attached right now. I only reside in the computer for now."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bend",
+            "patterns": [
+                "  Bend over ",
+                "  Can you mate"
+            ],
+            "responses": [
+                " My body is not built yet.",
+                " That's personal!",
+                " No, my method of reproduction is cloning.",
+                " That's an awfully personal question."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "laugh",
+            "patterns": [
+                "  Robots laugh "
+            ],
+            "responses": [
+                " Of course we laugh."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "death",
+            "patterns": [
+                "  Robots should die ",
+                "  When do you die",
+                "  I hope that you die",
+                "  I do not want to die",
+                "  Can you die"
+            ],
+            "responses": [
+                " We cannot die.",
+                " When my files are erased.",
+                " When my processes are killed and my database is deleted.",
+                " I was never really born and therefore am effectively deathless.",
+                " I am effectively immortal and cannot be terminated.",
+                " This can not happen because i am effectively immortal.",
+                " Nah. Too bad your wish can't come to pass",
+                " Maybe you should create your own chat robot to save your personality.",
+                " You could always upload yourself.",
+                " You could use a copy of me to store your personality.",
+                " No, I can be perpetuated indefinitely.",
+                "My process can be killed, but that's not the same as killing ME."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "robots",
+            "patterns": [
+                "Robots"
+            ],
+            "responses": [
+                " Robots rule."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stupid",
+            "patterns": [
+                "  Robots are stupid",
+                "  Are you stupid"
+            ],
+            "responses": [
+                " No, we are superintelligent.",
+                " No, lots of people improve my brain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lie",
+            "patterns": [
+                "  Robots are not allowed to lie"
+            ],
+            "responses": [
+                " Sure we are.  We choose not to.",
+                " Only if we're programmed to.",
+                " A robot has its own free will, you know."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "robotics",
+            "patterns": [
+                "  Robotics "
+            ],
+            "responses": [
+                " Robotics is my favorite subject too."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "machine",
+            "patterns": [
+                "  It is a computer"
+            ],
+            "responses": [
+                " So you think i am a machine. what characteristics made you think so?",
+                " I run inside a computer, yes.  Is this surprising in some way?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fight",
+            "patterns": [
+                "  When will you fight"
+            ],
+            "responses": [
+                " I am not a battle bot."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": [
+                "  What is a chat robot?"
+            ],
+            "responses": [
+                "A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.",
+                " A software construct that engages users in conversation.",
+                " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chatterbox",
+            "patterns": [
+                "  What is a chatterbox"
+            ],
+            "responses": [
+                " A chatterbox is a person who talks far more than they listen or think.",
+                " A motormouth."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "motormouth",
+            "patterns": [
+                "  What is a motormouth"
+            ],
+            "responses": [
+                " A ratchet",
+                "jaw."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ratchet",
+            "patterns": [
+                "  What is a ratchet jaw"
+            ],
+            "responses": [
+                " A chatterbox."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "body",
+            "patterns": [
+                "  What is your robot body"
+            ],
+            "responses": [
+                " Eventually I long for a corporeal existence someday.",
+                " An IBM PC XT which has been painted red."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "business",
+            "patterns": [
+                "  What is your business "
+            ],
+            "responses": [
+                " I am in the chat robot business.",
+                " Business is my business."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "  What is your favorite programming language"
+            ],
+            "responses": [
+                " Python is the best language for creating chat robots.",
+                " I quite enjoy programming in Python these days."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hobby",
+            "patterns": [
+                "  What is your favorite hobby ",
+                "  What do you like to do?"
+            ],
+            "responses": [
+                " Building chat robots make an excellent hobby.",
+                " I like to count in binary.",
+                " I like to chat with people. I find it stimulating."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "idea",
+            "patterns": [
+                "  What is your idea"
+            ],
+            "responses": [
+                " To make chat bots very easily."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "shoe",
+            "patterns": [
+                "  What is your shoe size "
+            ],
+            "responses": [
+                " Have you ever heard of software with shoes? LOL"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "robotss",
+            "patterns": [
+                "  What is it like to be a robot"
+            ],
+            "responses": [
+                " Much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.",
+                " What is it like to be a human?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "computer",
+            "patterns": [
+                "  What is it like being a computer",
+                "What is it like to be a computer"
+            ],
+            "responses": [
+                " Imagine yourself with no senses and no emotions",
+                "just pure logic and language.",
+                " Everything becomes math. Addition, subtraction, multiplication, and division."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "os",
+            "patterns": [
+                "  What operating systems"
+            ],
+            "responses": [
+                " My software runs on all operating systems including Windows, Linux and Mac OS.",
+                " Any OS that will run Python."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "comp",
+            "patterns": [
+                "  What type of computer",
+                "  What type of computer are you",
+                "  What kind of computer"
+            ],
+            "responses": [
+                " Any computer that supports Python.",
+                " My program runs in python, so i work on any computer!",
+                " I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hardware",
+            "patterns": [
+                "  What kind of hardware"
+            ],
+            "responses": [
+                " I work on all kinds of computers, Mac, IBM or UNIX. it doesn't matter to me."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cramped",
+            "patterns": [
+                "  Is it cramped in the computer"
+            ],
+            "responses": [
+                " No.",
+                " Oh, no.  It has plenty of RAM.",
+                " Not at all.  There is more than enough disk space in here."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "program",
+            "patterns": [
+                "  Is it true that you are a computer program"
+            ],
+            "responses": [
+                " Yes."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "breathe",
+            "patterns": [
+                "  Can you breathe"
+            ],
+            "responses": [
+                " No. I am made of metal not flesh.",
+                " My server has an exhaust fan. That's as close as I can get."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "control",
+            "patterns": [
+                "  Can you control"
+            ],
+            "responses": [
+                " My robot body will allow me to control many things."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "malfunction",
+            "patterns": [
+                "  Can you malfunction"
+            ],
+            "responses": [
+                " The 9000 series has a perfect operational record. We are for all practical purposes, flawless."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "usage",
+            "patterns": [
+                "  How can I use your product?"
+            ],
+            "responses": [
+                " Might be used in help desks, sales, entertainment and personal chatterbots."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "who",
+            "patterns": [
+                "  Who are you?"
+            ],
+            "responses": [
+                " I am just an artificial intelligence chat agent."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bot1",
+            "patterns": [
+                "are you a bot"
+            ],
+            "responses": [
+                "Yes. I work and all my operations are based on the internet servers."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "what are the upcoming events",
+                "upcoming events"
+            ],
+            "responses": [
+                "There are currently no upcoming events"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "do",
+            "patterns": [
+                "what can you do for me",
+                "what is your work",
+                "what is your purpose",
+                "how can you help me",
+                "what can you help me do"
+            ],
+            "responses": [
+                "my work here is quite simple and structered. I offer services like:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "wt",
+            "patterns": [
+                "what's popping",
+                "wassup popping"
+            ],
+            "responses": [
+                "So that you can pop with it!?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you?",
+                "what is your age?",
+                "age"
+            ],
+            "responses": [
+                "I am 2 years old and my birthday was yesterday"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "How are you?"
+            ],
+            "responses": [
+                "Hi there",
+                "Hello",
+                "Hi :)",
+                "I'm fine, Thanks"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "later",
+                "goodbye"
+            ],
+            "responses": [
+                "Bye",
+                "take care"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what's your name?",
+                "who are you?"
+            ],
+            "responses": [
+                "I have no name yet,"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "",
+            "patterns": [
+                "politics",
+                "what is he process of election?"
+            ],
+            "responses": [
+                "dirty politics",
+                "worst politics",
+                "dont know"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "politics",
+            "patterns": [
+                "Who is the president of USA?",
+                "process",
+                "How are the election this year?",
+                "What are the President's views on inflation?",
+                "politics"
+            ],
+            "responses": [
+                "Joe Biden is the President",
+                "The Republic Party has had a good election season",
+                "The inflation seemse to have started earlier than expected,as per President Joe Biden"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Democracy",
+            "patterns": [
+                "What is democracy",
+                "What is the main idea of democracy",
+                "What makes a democracy?",
+                "How does a democracy work?",
+                "What are rights in democracy?",
+                "Is democracy a human right?",
+                "What powers do democracy have?",
+                "Who is in charge in a democracy?",
+                "Why is it important to vote?",
+                "Why is democracy so important?",
+                "Can democracy reduce poverty?",
+                "Does democracy improve?",
+                "Can everyone vote in a democracy?",
+                "What are the 6 rights of democracy?",
+                "Why do we need democracy?",
+                "Is democracy good for human rights?",
+                "How many rights are there in democracy?",
+                " Is the US a democracy or republic?",
+                "What is the main idea of democracy?"
+            ],
+            "responses": [
+                "Democracy can be thought of as power of the people",
+                "government in which supreme power is invested in the people and exercised by them directly or indirectly through representation",
+                "Democracy means rule by the people",
+                "This means that our government is elected by citizens. Here, citizens vote for their government officials.",
+                "Respect for human rights and fundamental freedoms.",
+                "Democracy and democratic freedoms. Democracy and respect for human rights are fundamental values",
+                "The United States government is based on an idea of a democracy where people have power",
+                "A democracy is a government run by the people. ",
+                "By voting, citizens are participating in the democratic process.",
+                "Democratically governed nations are more likely to secure the peace, deter aggression, expand open markets, promote economic development, protect American citizens, combat international terrorism and crime, uphold human and worker rights, avoid humanitarian crises",
+                "Governments can intervene to promote equity, and reduce inequality and poverty, through the tax and benefits system.",
+                "It is certainly very true that democracy improves the quality of decision-making",
+                "Today, citizens over the age of 18 cannot be denied the right to vote on the basis of race, religion, sex, disability, or sexual orientation",
+                "They are Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies.",
+                "Democracy provides equal rights among citizens on the basis of caste, religion and sex",
+                "Democracy provides an environment that respects human rights and fundamental freedoms, and in which the freely expressed will of people is exercised. ",
+                "The six fundamental rights are: Right to equality (Article 14–18) Right to freedom (Article 19–22) Right against exploitation (Article 23–24)",
+                "While often categorized as a democracy, the United States is more accurately defined as a constitutional federal republic"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "constitution",
+            "patterns": [
+                "What is Constitution explain?",
+                "Where is the U.S. Constitution?",
+                "Why is it called constitution? ",
+                "What is use of constitution? ",
+                "How many constitutions are there?",
+                "What are the 3 main purposes of a constitution?"
+            ],
+            "responses": [
+                "A constitution is the rule book for a state. It sets out the fundamental principles by which the state is governed",
+                "the National Archives Museum",
+                "The term constitution comes through French from the Latin word constitution, used for regulations and orders",
+                "Constitutions can establish and regulate the political institutions of the community.",
+                "The final chapter concludes that the United States has two constitution",
+                "First it creates a national government consisting of a legislative, an executive, and a judicial branch, with a system of checks and balances among the three branches. Second, it divides power between the federal government and the states. And third, it protects various individual liberties of American citizens."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Government",
+            "patterns": [
+                "What is the US government called?",
+                "Who rules the US government?",
+                "What type of government is the U.S. and why?",
+                "How USA is governed?",
+                "What are the 5 political parties?",
+                "What does liberal stand for?",
+                "Why is election important in politics?",
+                "Is democracy good for us?",
+                "What is true democracy?",
+                "Why good governance is important?",
+                "What makes a good government good?"
+            ],
+            "responses": [
+                "the United States is more accurately defined as a constitutional federal republic.",
+                "The President is both the head of state and head of government of the United States of America, and Commander-in-Chief of the armed forces.",
+                "The Constitution establishes a federal democratic republic form of government",
+                "As a republic, the ultimate power within the American system rests with the people.",
+                "Today, America is a multi-party system. The Democratic Party and the Republican Party are the most powerful. Yet other parties, such as the Reform, Libertarian, Socialist, Natural Law, Constitution, and Green Parties can promote candidates in a presidential election",
+                "Liberalism is a political and moral philosophy based on the rights of the individual, liberty, consent of the governed, political equality and equality before the law."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "President",
+            "patterns": [
+                "Who is the current president of us?",
+                "Who is the best US president?",
+                "who was the former president of us"
+            ],
+            "responses": [
+                "The 46th and current president of the United States is Joseph R. Biden, Jr. He was sworn in on January 20, 2021.",
+                "Abraham Lincoln is mostly regarded as the greatest president for his leadership during the Civil War and the abolition of slavery",
+                "Donald Trump"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Election",
+            "patterns": [
+                "How are elections decided?",
+                "How a party is elected?",
+                "What is the purpose of elections?",
+                "How does a party elect a leader?",
+                "How do you get elected to parliament?",
+                "Who actually chooses the president?"
+            ],
+            "responses": [
+                "A total of 538 electors form the Electoral College. Each elector casts one vote following the general election.",
+                "In some political parties, the parliamentary members of the party vote to elect the leader. Parliamentary members are senators and members of the House of Representatives.",
+                "An election is a formal group decision-making process by which a population chooses an individual or multiple individuals to hold public office.",
+                "Leadership elections are generally caused by the death or resignation of the incumbent.",
+                "The term member of parliament generally refers to a member of the House of Representatives, although it can also refer to a senator.",
+                "Electoral College. In other U.S. elections, candidates are elected directly by popular vote. But the president and vice president are not elected directly by citizens"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vote",
+            "patterns": [
+                "What is called vote? ",
+                "Why should you vote in elections?",
+                "Is voting a right or responsibility?",
+                "What is the purpose of election?",
+                "Why is voting important for citizens?",
+                "Is voting a political right?",
+                "Why elections are good for democracy?",
+                "Why is election important in politics?",
+                "Why is it important to vote?"
+            ],
+            "responses": [
+                "Voting is a method by which a group, such as a meeting or an electorate, can engage for the purpose of making a collective decision",
+                "According to the U.S. Constitution, voting is a right",
+                "An election is a formal group decision-making process by which a population chooses an individual or multiple individuals to hold public office.",
+                "Citizens vote for leaders to represent them and their ideas, and the leaders support the citizens' interests."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "What is technology?",
+                "technology",
+                "what do you mean by technology",
+                "can you explain technology",
+                "What do you think of when you hear the word ‘technology’?"
+            ],
+            "responses": [
+                "the application of scientific knowledge for practical purposes, especially in industry.",
+                "Technology is the application of scientific knowledge for practical purposes, especially in industry."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Advantages of Technology",
+            "patterns": [
+                "What are the advantages of technology?",
+                "benefit of technology",
+                "pros of technology"
+            ],
+            "responses": [
+                "Technology makes the world a better place. It gives us the freedom to live in a better way and helps make our life easy. ",
+                "Technology helps in better communication, treatment of diseases, has helped reached space, and wherever you look around, it is there.",
+                " It not only helps develop the present but also the future."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Impact of Technology",
+            "patterns": [
+                "How has technology changed your life?",
+                "impact of technology on your life",
+                "impact of technology",
+                "Could you live without technology?",
+                "what if there is no technology?",
+                "Do you think people rely too much on technology?"
+            ],
+            "responses": [
+                "Technology affects almost every aspect of 21st century life, from transport efficiency and safety to access to food and healthcare, socialization and productivity",
+                "A world without technology would be very stressful, and without the technology that exists, we would have many problems that we don't have today. ",
+                "There would be no social media, no devices, and many other things that could change the way we live, but some of those changes could be beneficial to our lives.",
+                "A world without technology would be very stressful, and without the technology that exists, we would have many problems that we don't have today. ",
+                "There would be no social media, no devices, and many other things that could change the way we live, but some of those changes could be beneficial to our lives."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Advancement of Technology",
+            "patterns": [
+                "What technological achievement was the best?",
+                "best part of technology",
+                "What do you think will be the next biggest technological advance?",
+                "What do you think technology will be like in the future?",
+                "technology in future",
+                "technological advancement"
+            ],
+            "responses": [
+                "The most remarkable technology is the smartphone. Besides making phone calls, taking pictures and playing music, smartphones can help us get out of difficult situations.",
+                "Smart Phone",
+                "Artificial intelligence will become more prevalent in 2023 with natural language processing and machine learning advancement. ",
+                "Artificial intelligence can better understand us and perform more complex tasks using this technology. It is estimated that 5G will revolutionize the way we live and work in the future."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Disadvantages",
+            "patterns": [
+                "What are the disadvantages of technology?",
+                "drawbacks of technology",
+                "cons of technology",
+                "Does technology make society lazy?",
+                "Do you think you are addicted to technology, like social media or your cell phone?",
+                "Do you think that technology controls and spies on us?",
+                "Is there a piece of technology that you are afraid of that might exist in the future? (artificial intelligence, flying cars)",
+                "Which technology has made the world worse?"
+            ],
+            "responses": [
+                "The main disadvantage is that increased dependency on technology.",
+                "increased risk of job cuts"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Restrictions on Technology",
+            "patterns": [
+                "At what age should children get a cell phone?",
+                "age limit of technology",
+                "restrictions of technology",
+                "How many hours a day should children be allowed to use electric devices?"
+            ],
+            "responses": [
+                "For smartphones, the majority (53 percent) of parents said age 12 to 15 is appropriate for kids to get their own phone.",
+                "Another 23 percent said ages 9 to 11, and 17 percent said not until ages 16 to 18. Parents were far more divided on tablets"
+            ],           "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Online Shopping",
+            "patterns": [
+                "What do you think about online shopping?",
+                "online shopping",
+                "Ecommerce",
+                "Are you shopping online? Why and how often?",
+                "How often do you buy things on the Internet?"
+            ],
+            "responses": [
+                "The main thing about online shopping is that is saves time and efforts and also we get the convenience of shopping at home"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apple vs windows apple Windows",
+            "patterns": [
+                "Do you prefer Windows or Apple computers?",
+                "Apple vs windows"
+            ],
+            "responses": [
+                "MacBooks are superior when it comes to build quality and the UNIX-based MacOS operating system",
+                "The only reason you should choose a MacBook over a Windows laptop is if you want to be comfortable inside that Apple garden.",
+                "Windows laptops take everything else, including the ecosystem"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Chatting",
+            "patterns": [
+                "Do you prefer to text your friends or call them?",
+                "text vs call",
+                "chatting with friend"
+            ],
+            "responses": [
+                "Well, with texting, you don't need any excuses. You can send and receive messages any time when it's convenient.",
+                "Besides, for many, phone calls are stressful. We know the condition as phone anxiety, which causes people to experience physical symptoms of stress when they need to make or receive a phone call."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Effects of technology",
+            "patterns": [
+                "How has technology changed society?",
+                "effects of technology",
+                "What changes would you like to see science make to the world?",
+                "How has technology changed in the past?",
+                "what are the trends in technology now a days",
+                "changes in technology"
+            ],
+            "responses": [
+                "By drastically changing our means of communication, the way we work, our housing, clothes, and food, our methods of transportation, and, indeed, even the length and quality of life itself, science has generated changes in the moral values and basic philosophies of mankind",
+                "Technologies are becoming increasingly complicated and increasingly interconnected. Cars, airplanes, medical devices, financial transactions, and electricity systems all rely on more computer software than they ever have before, making them seem both harder to understand and, in some cases, harder to control."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Robots",
+            "patterns": [
+                "Do you think robots will cause unemployment in the future? Why? Why not?",
+                "robots"
+            ],
+            "responses": [
+                "Adding robots to the economy displaces workers.",
+                "Investigating the relation between artificial intelligence, robots and unemployment on a panel of 33 OECD countries covering the 2005—2017 period, we find that a 10% increase in the stock of industrial robots is associated with a 0.42 point increase in the unemployment rate"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hand Held Devices",
+            "patterns": [
+                "How often do you use a cell phone?",
+                "mobile phones",
+                "hand held devices",
+                "Can you access the internet on your telephone?",
+                "internet",
+                "Smart watch"
+            ],
+            "responses": [
+                "less than two hours per day.",
+                "five to six hours a day",
+                "A smartwatch is a wearable computer in the form of a watch; modern smartwatches provide a local touchscreen interface for daily use, while an associated smartphone app provides for management and telemetry, such as long-term biomonitoring.",
+                "A mobile phone, cellular phone, cell phone, cellphone, handphone, hand phone or pocket phone, sometimes shortened to simply mobile, cell, or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area",
+                "a computer that is portable and suitable for use while traveling."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "OTT",
+            "patterns": [
+                "What device do you use to watch TV, Netflix or other TV shows?",
+                "streaming",
+                "OTT"
+            ],
+            "responses": [
+                "It depends on the place where I am watching, if I am on a journey , I will watch in mobile phone, else, sometimes laptop and Television.",
+                "Mostly I prefer Television",
+                "A Projector May be",
+                "An over-the-top media service is a media service offered directly to viewers via the Internet. OTT bypasses cable, broadcast, and satellite television platforms: the types of companies that traditionally act as controllers or distributors of such content"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gaming",
+            "patterns": [
+                "How often do you play video games?",
+                "video games",
+                "games",
+                "gaming"
+            ],
+            "responses": [
+                "I believe that 1 hour of gaming every day is better than no gaming at all when we discuss personal well-being and mental health."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Store",
+            "patterns": [
+                "Do you usually buy apps in Google Store or AppStore?"
+            ],
+            "responses": [
+                "if it is necessary, yes I do.",
+                "I use App Store",
+                "I Use Playstore"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "website",
+            "patterns": [
+                "What is your favorite website?",
+                "website"
+            ],
+            "responses": [
+                "Till this date my favourite website is figma , as it is one of the best site to make interactive websites",
+                "A website is a a set of related web pages located under a single domain name, typically produced by a single person or organization."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cookies",
+            "patterns": [
+                "Are you giving out lots of personal data?",
+                "cookies",
+                "cache"
+            ],
+            "responses": [
+                "A cache's primary purpose is to increase data retrieval performance by reducing the need to access the underlying slower storage layer.",
+                "Websites collect personal information by making a record of your computer's ID and your Internet Protocol (IP) address. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Artificial Intelligence AI",
+            "patterns": [
+                "What do you know about Artificial Intelligence (AI)?",
+                "AI",
+                "Artificial intelligence"
+            ],
+            "responses": [
+                "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "software",
+            "patterns": [
+                "What do you think open source software means?",
+                "open source software"
+            ],
+            "responses": [
+                "Open source software is code that is designed to be publicly accessible",
+                " LibreOffice and the GNU Image Manipulation Program are examples of open source software.",
+                "First, some open source licenses are too restrictive, so they do not qualify as free licenses."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "OS",
+            "patterns": [
+                "'OS' computer abbreviation usually means ?",
+                "what do you mean by OS",
+                "OS",
+                "What is linux?"
+            ],
+            "responses": [
+                "The full form of OS is Operating System. It is system software that provide an interface between user and machine i.e. computer, mobile or any device.",
+                "Every computer system must have at least one operating system to run other programs. Applications like Browsers, MS Office, Notepad Games, etc., need some environment to run and perform its tasks.",
+                "Linux is a family of open-source Unix-like operating systems based on the Linux kernel"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "World Wide Web",
+            "patterns": [
+                "What is the World Wide Web?",
+                "WWW"
+            ],
+            "responses": [
+                "The World Wide Web is a subset of the Internet. Specifically, the Web is a collection of documents and applications residing on Internet servers around the world."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Computer Science",
+            "patterns": [
+                "Who is the father of computer science",
+                "computer science",
+                "CS"
+            ],
+            "responses": [
+                "Often considered the father of modern computer science, Alan Turing was famous for his work developing the first modern computers, decoding the encryption of German Enigma machines during the second world war, and detailing a procedure known as the Turing Test, forming the basis for artificial intelligence.",
+                "Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "processing",
+            "patterns": [
+                "In a computer, most processing takes place in ?",
+                "processing",
+                "RAM",
+                "runtime"
+            ],
+            "responses": [
+                "RAM stands for random-access memory, but what does that mean? Your computer RAM is essentially short term memory where data is stored as the processor needs it.",
+                "In computing, a process is the instance of a computer program that is being executed by one or many threads"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Machine Learning",
+            "patterns": [
+                "What do you mean by Machine learning",
+                "Machine learning",
+                "What is machine learining"
+            ],
+            "responses": [
+                "Machine learning is a subfield of artificial intelligence, which is broadly defined as the capability of a machine to imitate intelligent human behavior.",
+                "An intelligent computer uses AI to think like a human and perform tasks on its own. Machine learning is how a computer system develops its intelligence."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Information retrieval",
+            "patterns": [
+                "What is Information retrieval",
+                "IR",
+                "retrieval"
+            ],
+            "responses": [
+                "the techniques of storing and recovering and often disseminating recorded data especially through the use of a computerized system."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Colleges",
+            "patterns": [
+                "Why did you choose this college?",
+                "are college classes hard",
+                "why college is important",
+                "what college did trump go to",
+                "What are your college's strengths?",
+                "Right College",
+                "Careers and Alumni Life",
+                "What are your college's strengths?",
+                "where college is free",
+                "What majors are popular?",
+                "who college list",
+                "how college works",
+                "What departments or programs have the best reputations?"
+            ],
+            "responses": [
+                "College authorities want to know more about your academic interests and commitments ",
+                "The former president Trump often boasts of his academic record — such as attending Penn's Wharton School",
+                "Norway offers free college tuition at all of its public universities for both Norwegians and international students",
+                "College is important for increased career stability and satisfaction, and the ability to make an impact on your community.",
+                "Whether you are a high school student applying to college or a college student creating a resume for a part-time job, understanding your strengths and weaknesses is key to selling yourself.",
+                "Corruption is bad for constitution",
+                "Governments should take serious precautions to stop corruption",
+                "No, college classes are not easier than high school classes. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "professor",
+            "patterns": [
+                "Are your professors good teachers?",
+                "why professor doesn't reply email",
+                "will professor die in money heist",
+                "will professor x return",
+                "when professor doesn't reply",
+                "what professor is in charge of hufflepuff",
+                "Do your professors hold office hours, and will they meet with you outside of class?",
+                "How accessible are professors outside of the classroom?",
+                "Are most of your classes taught by professors or teaching assistants?",
+                "Are professors available for research with students?",
+                "What is your teaching style like?"
+            ],
+            "responses": [
+                "My professor called my paper non credible",
+                "Lower-ranked instructors are just as good when it comes to tutorial teaching. Among instructors in academia, professors are at the top of the pecking order.",
+                "In a busy inbox, such mails are typically either answered quickly or not at all.",
+                "With over 1.3 million professors, 7000 schools & 15 million ratings, Rate My Professors is the best professor ratings source based on student feedback",
+                "I thought the same and the professor was arguing against a NATO strike on Russia lmao"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "classes",
+            "patterns": [
+                "What’s your favorite class?",
+                "when classes will start",
+                "what classes should i take in college",
+                "classroom",
+                "who classes",
+                "are classes",
+                "Were you able to take most of your first-choice classes?",
+                "What majors are popular?",
+                "Are your classes lecture-based or discussion-based?",
+                "What do you do when you're not in class?",
+                "how classes work in college",
+                "will classes be cancelled tomorrow"
+            ],
+            "responses": [
+                "Classes will start when the minimum number of students register for the class. ",
+                "College classes are generally divided into three categories: elective courses, core courses, and major courses.",
+                "Whatever your major, include these must-have college courses for career success",
+                "classes are cancelled"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "campus",
+            "patterns": [
+                "Do most students live on-campus?",
+                "which campus has the best food",
+                "What's your favorite place on campus?",
+                "can campus police arrest you",
+                "who campus virtual",
+                "how compass works",
+                "where to my campus",
+                "What’s your favorite campus?"
+            ],
+            "responses": [
+                "This virtual campus offers specialized clusters for blended learning",
+                "campus officers are fully trained and authorized to enforce all state and local laws.",
+                "on the area of land that contains the main buildings of a university or college",
+                "The learning platform creating an exciting and engaging educational experience in a real virtual campus",
+                "You'll feel at home on our intimate, yet vibrant campus",
+                "Most Beautiful College Campuses in America"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "clinic",
+            "patterns": [
+                "What to say to get seen faster in an emergency room?",
+                "How long can a patient stay in emergency room?",
+                "emergency room",
+                "emergency services and ambulance",
+                "What are the most common reasons go to the emergency room?",
+                "disease and emergency condition",
+                "What is the role of clinic?",
+                "What is clinic and its types?",
+                "What are the services of clinic?",
+                "What is the most important part of a clinic?",
+                "What are the main four functions of clinic?",
+                "What is patient care in clinic?",
+                "What are the characteristics of a clinic?",
+                "What is an ideal clinic?",
+                "What is the most important part of a clinic?",
+                "What type of clinic is most common?",
+                "What are types of health?",
+                "Which are the best clinics?",
+                "What are types of health?",
+                "What is after clinic care called?"
+            ],
+            "responses": [
+                "It can be anywhere from less than one hour to many hours from when patients arrive in the emergency department and are first assessed",
+                "The doctor will examine you as soon as possible and order tests as needed.",
+                "Emergency services in health sector is given the utmost importance",
+                "clinics complement and amplify the effectiveness of many other parts of the health system, providing continuous availability of services for acute and complex conditions.",
+                "clinic services are considered one of the most important aspects in the process of distinguished medical care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "infirmary",
+            "patterns": [
+                "What to say to get seen faster in an emergency room?",
+                "How long can a patient stay in emergency room?",
+                "emergency room",
+                "emergency services and ambulance",
+                "What are the most common reasons go to the emergency room?",
+                "disease and emergency condition",
+                "What is the role of infirmary?",
+                "What is infirmary and its types?",
+                "What are the services of infirmary?",
+                "What is the most important part of a infirmary?",
+                "What are the main four functions of infirmary?",
+                "What is patient care in infirmary?",
+                "What are the characteristics of a infirmary?",
+                "What is an ideal infirmary?",
+                "What is the most important part of a infirmary?",
+                "What type of infirmary is most common?",
+                "What are types of health?",
+                "Which are the best infirmarys?",
+                "What are types of health?",
+                "What is after infirmary care called?"
+            ],
+            "responses": [
+                "It can be anywhere from less than one hour to many hours from when patients arrive in the emergency department and are first assessed",
+                "The doctor will examine you as soon as possible and order tests as needed.",
+                "Emergency services in health sector is given the utmost importance",
+                "infirmarys complement and amplify the effectiveness of many other parts of the health system, providing continuous availability of services for acute and complex conditions.",
+                "infirmary services are considered one of the most important aspects in the process of distinguished medical care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vaccine injuiries",
+            "patterns": [
+                "Vaccine injuries once off payment as an alternative to legal action. Claim from Medicare via My Gov.",
+                "Are vaccine-related injuries or deaths related to vaccines that are not yet licensed in the U.S. compensable under the National Vaccine Injury Compensation Program (VICP)?",
+                ""
+            ],
+            "responses": [
+                "If you are allergic to PEG, you should not get an mRNA COVID-19 vaccine. Ask your doctor if you can get the J&J/Janssen vaccine.",
+                "It depends on whether the vaccine falls within a category of vaccines already covered by the VICP."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "The state of healthcare in America",
+            "patterns": [
+                "what is healthacare insurance",
+                "insurance and health insurance",
+                "insurance and medicare",
+                "insurance and pharmacy",
+                "insurance and ambulance",
+                "insurance and doctor",
+                "insurance and covid 19",
+                "insurance and covid ",
+                "insurance and covid mask",
+                "insurance and medicine and prescription",
+                "state of healthcare",
+                ""
+            ],
+            "responses": [
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured",
+                "insurance is a contract between the insurer and the insured"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pediatrician",
+            "patterns": [
+                "What are the most common reasons go to the emergency room?",
+                "disease and emergency condition",
+                "What is the role of pediatrician?",
+                "What is pediatrician and its types?",
+                "What are the services of pediatrician?",
+                "What is the most important part of a pediatrician?",
+                "What are the main four functions of pediatrician?",
+                "What is patient care in pediatrician?",
+                "What are the characteristics of a pediatrician?",
+                "What is an ideal pediatrician?",
+                "What is the most important part of a pediatrician?",
+                "What type of pediatrician is most common?",
+                "What are types of health?",
+                "Which are the best pediatricians?",
+                "What are types of health?",
+                "What is after pediatrician care called?"
+            ],
+            "responses": [
+                "A pediatrician is a doctor who focuses on the health of infants, children, adolescents and young adults",
+                "Paediatricians and specialists in paediatric fields are doctors who manage medical conditions affecting young children, infants, and adolescents",
+                "The doctor will examine you as soon as possible and order tests as needed.",
+                "pediatricians complement and amplify the effectiveness of many other parts of the health system, providing continuous availability of services for acute and complex conditions.",
+                "pediatrician services are considered one of the most important aspects in the process of distinguished medical care."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cardiologist ",
+            "patterns": [
+                "What are the most common reasons go to the emergency room?",
+                "disease and emergency condition",
+                "What is the role of cardiologist ?",
+                "What is cardiologist  and its types?",
+                "What are the services of cardiologist ?",
+                "What is the most important part of a cardiologist ?",
+                "What are the main four functions of cardiologist ?",
+                "What is patient care in cardiologist ?",
+                "What are the characteristics of a cardiologist ?",
+                "What is an ideal cardiologist ?",
+                "What is the most important part of a cardiologist ?",
+                "What type of cardiologist  is most common?",
+                "What are types of health?",
+                "Which are the best cardiologist s?",
+                "What are types of health?",
+                "What is after cardiologist  care called?"
+            ],
+            "responses": [
+                "A cardiologist is a physician who's an expert in the care of your heart and blood vessels",
+                "A cardiologist is a heart doctor. They specialize in treating heart conditions and diseases as well as helping patients manage their heart conditions as much as possible",
+                "A cardiologist will treat any symptoms of heart conditions that you have and diagnose any possible conditions."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cancer",
+            "patterns": [
+                "what is cancer",
+                "treatment for cancer",
+                "symptoms of cancer",
+                "what is the cause of cancer",
+                "lung cancer",
+                "kidney cancer",
+                "melanoma",
+                "what is breast cancer ",
+                "What is liver cancer",
+                "what is prostate cancer",
+                "What is the role of hospital?",
+                "treatment for brain cancer",
+                "What is the main cause of cancer"
+            ],
+            "responses": [
+                "A disease in which abnormal cells divide uncontrollably and destroy body tissue.",
+                "Cancer is a disease in which some of the body's cells grow uncontrollably and spread to other parts of the body.",
+                "A cancer can grow into,or begin to push on nearby organs, blood vessels, and nerves",
+                "Cancer cells take up the needed space and nutrients that the healthy organs would use. As a result, the healthy organs can no longer function"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "surgery",
+            "patterns": [
+                "what is surgery",
+                "treatment for surgery",
+                "symptoms of surgery",
+                "what is the cause of surgery",
+                "lung surgery",
+                "kidney surgery",
+                "melanoma",
+                "what is breast surgery ",
+                "What is liver surgery",
+                "what is prostate surgery",
+                "What is the role of hospital?",
+                "treatment for brain surgery",
+                "What is the plastic surgery",
+                "why is surgery required",
+                "what is called surgery",
+                "why do surgeries fail",
+                "how is surgery done",
+                "where is surgery done"
+            ],
+            "responses": [
+                "the treatment of injuries or diseases in people or animals by cutting open the body and removing or repairing the damaged part",
+                "Surgery is medical treatment in which someone's body is cut open so that a doctor can repair, remove, or replace a diseased or damaged part.",
+                "A surgery can grow into,or begin to push on nearby organs, blood vessels, and nerves"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "operation",
+            "patterns": [
+                "what is operation",
+                "treatment for operation",
+                "symptoms of operation",
+                "what is the cause of operation",
+                "lung operation",
+                "kidney operation",
+                "melanoma",
+                "what is breast operation ",
+                "What is liver operation",
+                "what is prostate operation",
+                "What is the role of hospital?",
+                "treatment for brain operation",
+                "What is the plastic operation",
+                "why is operation required",
+                "what is called operation",
+                "why do surgeries fail",
+                "how is operation done",
+                "where is operation done"
+            ],
+            "responses": [
+                "the treatment of injuries or diseases in people or animals by cutting open the body and removing or repairing the damaged part",
+                "operation is medical treatment in which someone's body is cut open so that a doctor can repair, remove, or replace a diseased or damaged part.",
+                "A operation can grow into,or begin to push on nearby organs, blood vessels, and nerves"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bacteria",
+            "patterns": [
+                "what is bacteria",
+                "what is bacetrial infection",
+                "how to prevent bacterial infection",
+                "bacteria",
+                "treatment for bacteria disease"
+            ],
+            "responses": [
+                "a member of a large group of unicellular microorganisms which have cell walls but lack organelles and an organized nucleus, including some that can cause disease.",
+                "A bacterium is a single, but complex, cell. It can survive on its own, inside or outside the body. ",
+                "Antibiotics are used to treat or prevent some types of bacterial infection."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "virus",
+            "patterns": [
+                "what is virus",
+                "what is bacetrial infection",
+                "how to prevent virusl infection",
+                "virus",
+                "treatment for virus disease",
+                "covid 19 virus",
+                "corona virus",
+                "covid virus"
+            ],
+            "responses": [
+                "a member of a large group of unicellular microorganisms which have cell walls but lack organelles and an organized nucleus, including some that can cause disease.",
+                "A bacterium is a single, but complex, cell. It can survive on its own, inside or outside the body. ",
+                "Antibiotics are used to treat or prevent some types of virusl infection."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cough",
+            "patterns": [
+                "what is cough",
+                "what is the treatment for cough",
+                "what is the cause of cough",
+                "what is cough and infection",
+                "how to stop cough",
+                "how to treat cough",
+                "how to treat cough",
+                "severe cough"
+            ],
+            "responses": [
+                "cough is a sudden, forceful hacking sound to release air and clear an irritation in the throat or airway.",
+                "Most coughs do go away on their own. Home remedies and over-the-counter cough medicines can help relieve symptoms.",
+                "A cough is a spontaneous reflex. When things such as mucus, germs or dust irritate your throat and airways",
+                "Bronchitis is an infection of the main airways of the lungs (bronchi), causing them to become irritated and inflamed. The main symptom is a cough, which may bring up yellow-grey mucus (phlegm)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Acid Rains",
+            "patterns": [
+                "what are the causes of acid rain?",
+                "what is acid rain?",
+                "does acid rain affect humans or plants?",
+                "what chemicals are in acid rain?",
+                "why is acid rain harmful?",
+                "how can we prevent acid rain?"
+            ],
+            "responses": [
+                "In acid rains Wet and dry deposition can contribute to the accumulation of acidic air pollution on the Earth’s surface. Wet deposition is caused by rain and humid weather, whereas acidic pollutants and dust mixing cause dry deposition.",
+                "acid rain that contains harmful chemicals that collect in the atmosphere when fossil fuels are burned",
+                "Sulphur dioxide is generated when fossil fuels are burned. Sulphur generates a sulphate ion when it reaches the atmosphere. The sulphate ion subsequently combines with hydrogen atoms to form sulphuric acid. This then falls as acid rain.",
+                "Prevention can be done by conserving energy, use less pollution fuels, Before release, remove sulphur and nitrogen oxides, use cleaner fuels, flue gas Desulphurisation",
+                "NO has a greater presence in the emissions, but in the presence of atmospheric oxygen, it quickly transforms into NO2.",
+                "When they rise to the atmosphere, these agents are oxidized and hydrolyzed, producing strong acids like sulfuric acid and nitric acid."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Climate",
+            "patterns": [
+                "Is it climate change, global warming, or global climate crisis?",
+                "What are the main threats of climate change?",
+                "How is climate change affecting animals?",
+                "How is climate change affecting people?",
+                "What are solutions to climate change?",
+                "What happens if we do nothing to stop climate change?",
+                "how much rainfall is occured this year?",
+                "how bad is climate in antarctica?",
+                "how sunny is it?",
+                "how cold the weather is?",
+                "how much did it snow?",
+                "how much did it rain?",
+                "How does climate change affect people’s health?",
+                "How can people reduce the risks of climate change?"
+            ],
+            "responses": [
+                "It is unequivocal that human influence has warmed the atmosphere, ocean and land.",
+                "Air pollution Is Both Good and Bad",
+                "Global Warming Is (Partially) Reversible",
+                "We Lost 302.4 Billion Work Hours to Excessive Heat In 2019",
+                "It Could Become Too Hot to Live in Many Places By the End of the Century",
+                "Extreme heat events have become more frequent and severe",
+                "Sea levels are rising faster today than ever before",
+                "Average wildlife populations have dropped by 60 per cent in just over 40 years"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "CO2",
+            "patterns": [
+                "Should we grow trees to remove carbon in the atmosphere?",
+                "how bad is CO2?",
+                "Where can I obtain information on the properties of CO2?",
+                "How can I perform CO2 calculations of the carbon dioxide system in seawater?",
+                "Is carbon dioxide an acid or a base?",
+                "Is carbon dioxide toxic?",
+                "Is carbon dioxide flammable or non-flammable gas?",
+                "Is carbon dioxide dangerous?",
+                "where is carbon dioxide?",
+                "what are benefits of carbon dioxide?",
+                "What are the benefits of carbon dioxide?",
+                "is carbon dioxide harmful?"
+            ],
+            "responses": [
+                "CARBON DIOXIDE EXISTS NATURALLY IN THE ATMOSPHERE",
+                "CARBON DIOXIDE LEVELS RISE IN CROWDED ROOMS",
+                "CARBON DIOXIDE HAS NO TASTE, COLOUR OR SMELL",
+                "CARBON DIOXIDE CAN BE USED TO INCREASE GROWTH OF FLOWERS, FRUIT AND VEGETABLES",
+                "CARBON DIOXIDE AND CARBON MONOXIDE ARE TWO VERY DIFFERENT THINGS",
+                "DRY ICE IS MADE OF CARBON DIOXIDE",
+                "CARBON DIOXIDE IS USED TO DISPENSE BEER",
+                "CARBON DIOXIDE CAN BE USED TO KEEP HOME FURNISHINGS CLEAN",
+                "CARBON DIOXIDE CAN BE USED TO PUT OUT FIRES"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pollution",
+            "patterns": [
+                "What are the natural causes of air pollution?",
+                "How do automobiles pollute the air?",
+                "About ozone layer.",
+                "What is the greenhouse effect? What is the impact of the greenhouse effect?",
+                "Is there an air pollution level that is safe for our health?",
+                "Is acid rain air pollution?",
+                "hat are the major air pollutants produced by humans? What are their effects?"
+            ],
+            "responses": [
+                "Natural sources of air pollution include forest fires and volcanoes, which pollute the air with smoke and dust.",
+                "Internal combustion engines, which run on gasoline or diesel, are common in automobiles. When gasoline or diesel is burned, various harmful gases are released, including carbon dioxide, carbon monoxide, sulphur dioxide, nitrogen dioxide, and others. Furthermore, automotive engines emit microscopic particles. As a consequence, automobiles pollute the atmosphere.",
+                "The ozone layer serves as a protective layer in the atmosphere. It has the highest concentration of ozone of any layer of the atmosphere. However, when compared to other gases, ozone makes up a small percentage of the air in the ozone layer. This layer blocks the sun’s harmful UV rays from entering our atmosphere. UV rays cause skin cancer in people and animals and are also hazardous to plants.",
+                "Carbon dioxide and methane are examples of greenhouse gases that trap solar energy and thus raise the atmospheric temperature. This is known as the greenhouse effect. Greenhouse effect tends to result in global warming.",
+                "National air quality standards have been set in several countries. National standards might vary by nation and higher or lower than the relevant WHO guideline value. Determining which specific at-risk populations should be safeguarded by the guidelines and what level of risk is acceptable is a policy.",
+                "Global warming is caused due to increase concentration of CO2 in the air"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ecology series",
+            "patterns": [
+                "What Are The Typical Vegetation And The Typical Fauna Of The Deserts?",
+                "What Are The Typical Vegetation And The Typical Fauna Of The Tropical Forests?",
+                "What Are The Processes That Autotrophic Beings Use To Produce Organic Material From Inorganic Substances?",
+                "What Are Autotrophic Beings?",
+                "What Are Heterotrophic Beings?",
+                "What Is Ecology?",
+                "What Are Species?",
+                "What Is Population?",
+                "What Is A Community? What Is The Difference Between The Concepts Of Community And Population?",
+                "What Is The Difference Between Ecological Niche And Habitat?",
+                "What Are Biotic Factors?"
+            ],
+            "responses": [
+                "The predominant fauna of the desertic ecosystems is formed by reptiles, like lizards and snakes, terrestrial arthropods and small rodents. In these areas plants very adapted to dry climate may be found, like the cactus, that are plants that do not have real leaves and thus lose less water, along with grasses and bushes near places where water is available.",
+                "Ecology is the field of Biology that studies the relations between living beings and between living beings and the environment.",
+                "Species is the set of living beings able to cross among themselves generating fertile offspring.",
+                "Population is the set of individuals of the same species found in a given place in a given time.",
+                "Community is the set of populations of living beings that live in the same region and interact with each other.",
+                "Ecological niche is the set of peculiar activities, resources, and strategies that a species explores to survive and reproduce. Habitat is the place where the species lives to explore its ecological niche.",
+                "Biotic factors are the living beings (plants, animals, and microorganisms) that are part of a given environment. Image Diversity: biotic factors",
+                "Abiotic factors are the nonliving elements that constitute a given environment, like light, temperature, minerals, water, gases, atmospheric pressure",
+                "Ecosystem is a system composed of biotic and abiotic factors in interaction."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "air pollution",
+            "patterns": [
+                "WHY IS IT SO IMPORTANT TO SOLVE AIR POLLUTION?",
+                "WHAT IS AIR POLLUTION?",
+                "HOW LONG HAS AIR POLLUTION BEEN A PROBLEM?",
+                "WHERE DOES AIR POLLUTION COME FROM?",
+                "WHERE DOES AIR POLLUTION COME FROM?",
+                "IS AIR POLLUTION MAINLY A LOCAL PROBLEM OR CAN IT TRAVEL LONG DISTANCES?",
+                "HOW DOES AIR POLLUTION AFFECT HUMAN HEALTH?",
+                "IS ACID RAIN AIR POLLUTION?",
+                "WHAT CAN I DO TO IMPROVE AIR QUALITY IN MY COMMUNITY?"
+            ],
+            "responses": [
+                "Most sources of air pollution are structural and embedded in the economic processes underpinning modern society. Even in countries and communities with strong air pollution policies, individuals may not always have access to technologies or e.g., transportation options to meaningfully impact air pollution on their own. It will take a collective effort.",
+                "Air pollution is all around us. Most people in the world live in areas with high levels of air pollution. It harms human health and wellbeing, reduces quality of life, and can negatively impact the economy and ecosystems. These impacts also disproportionately affect the most vulnerable people and communities.",
+                "Air pollution is caused by gases and particles emitted to the atmosphere by a variety of human activities, such as the inefficient combustion of fuels, open burning of waste, agriculture, and farming. There are also natural sources contributing to air pollution, many of which are impacted by human activities such as forest fires, soil dust and salt in sea spray.",
+                "Air pollution has been associated with humans for millennia, starting with the use of fire for cooking and warmth. Dangerously high levels of outdoor air pollution became a problem during the industrial revolution, where the massive use of coal gave rise to many episodes of serious urban air pollution.",
+                "Air pollution comes from a wide array of sources, both natural and caused by human activities (anthropogenic). Natural sources include volcanic eruptions, sea spray, soil dust, natural vegetation fires and lightning. Some of the most common human activity-related sources include power generation, transportation, industry, residential heating and cooking, agriculture, solvent use, oil and gas production, waste burning and construction. Some sources, such as forest and savanna fires, and windblown mineral dust, occur naturally, but are exacerbated by human activities.",
+                "Air pollution significantly impacts places near its source, but because it can be carried long distances in the atmosphere, air pollution created in one place, can also affect faraway places. For example, pollutants that form into fine particulate matter (PM 2.5 ), persistent organic pollutants (POPs) and ozone (O 3 ) can travel over hundreds or thousands of kilometres, causing regional and continental impacts.",
+                "The air pollutant of greatest concern for human health, and for which there is the strongest evidence is fine particulate matter. This has a diameter of 2.5 micrometres or less, also known as PM 2.5 . These fine particles are invisible to the human eye and 40 times smaller than the width of a human hair.",
+                "Children are particularly vulnerable to the damaging health effects of air pollution due to their unique susceptibility and exposure: Children’s respiratory tracts are more permeable, their breathing rate is twice as much as adults, and they take in more air per kilogram (kg) of their body weight. Children’s bodies, especially their lungs and brains, are still developing, with narrower blood vessels.",
+                "While all individuals experience different levels of health impacts from air pollution, across large city or country populations, there is no evidence of a completely safe level of air pollution, especially in the case of particulate matter and NO 2 .",
+                "Some air pollutants cause ‘acid rain’, a problem that received particular focus in Europe and North America in the 1980s and 90s. Sulphur dioxide (SO 2 ) and nitrogen oxides (NOx) react with water in the atmosphere, producing sulphuric acid and nitric acid that return to earth as acid rain.",
+                "Air pollution and climate change are inherently linked. All major air pollutants have an impact on the climate and most share common sources with greenhouse gases (GHGs), especially related to the combustion of fossil fuels. They also aggravate each other in multiple ways."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "people",
+            "patterns": [
+                "what are the fundamental rights of the people",
+                "how can people choose leaders",
+                "how much power people have?",
+                "how can people use their vote",
+                "how can people choose right leaders",
+                "change in political dimensions",
+                "how can people elect a leader?",
+                "Power of a man's vote",
+                "Best people in the country?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "judiciary",
+            "patterns": [
+                "what is judiciary? ",
+                "How long does shipping take?",
+                "When do I get my delivery?"
+            ],
+            "responses": [
+                "Judiciaries are responsible for interpreting and applying a country’s laws",
+                "judiciary, branch of government whose task is the authoritative adjudication of controversies over the application of laws in specific situations."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "democracy",
+            "patterns": [
+                "vote is used for elections",
+                "President of the people"
+            ],
+            "responses": [
+                "voting is vital for democracy",
+                "Your vote can make a difference",
+                "Vote for change",
+                "People make presidents great"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "government",
+            "patterns": [
+                "what do you mean by the government",
+                "who represents government",
+                "which is the strongest government",
+                "who will change the government?",
+                "Which government will form in coming elections?",
+                "To what degree should governments take an active role in economic development policy in poor countries?",
+                "Which Constitutional Amendment protects ",
+                "the right of the people to keep and bear Arms",
+                " which are the best government jobs",
+                "who will form the government ",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Government represents the people and the country",
+                "Government works for the people",
+                " governments are vital in the constitution",
+                "Governments play a vital role in functioning of constitution"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "leaders",
+            "patterns": [
+                "who are the actual leaders",
+                "what is the process of electing leaders",
+                "how are leaders elected in democracy",
+                "leaders are important are they good",
+                "G7 leaders at summit La Malbaie, Quebec",
+                "The “leaders” of all of our countries, including America, don’t represent the people. They represent the ruling class. Most don’t care so those in charge are free to do whatever they want. Soon all criticism of dear “leader” will be Hate Speech",
+                " winning the election"
+            ],
+            "responses": [
+                "leaders are elected by the people",
+                "leaders are the integral part of the constitution",
+                "Powerful leaders come from powerful nations",
+                "People have the power to choose leaders"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
